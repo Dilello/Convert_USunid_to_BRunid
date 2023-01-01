@@ -1,3 +1,9 @@
+'''
+Entradas:
+lista - lista de números de entrada;
+numCasas - número de casas decimal desejada;
+'''
+
 def USunid_BRunid(lista, numCasas):
     lista1 = []
     casas = '{:,.'+str(numCasas)+'f}'
