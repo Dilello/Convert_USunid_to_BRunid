@@ -1,8 +1,9 @@
-def USunid_BRunid(lista):
+def USunid_BRunid(lista, numCasas):
     lista1 = []
+    casas = '{:,.'+str(numCasas)+'f}'
     for i in range(1,len(lista)):
         '''Criando uma lista de strings de números expressos com ponto no decimal e vírgula no milhar'''
-        lista1 = ['{:,.2f}'.format(lista[i-1]), '{:,.3f}'.format(lista[i])]
+        lista1 = [casas.format(lista[i-1]), casas.format(lista[i])]
         '''Convertendo strings de numeros com ponto no decimal e vírgula no milhar para 
         strings com virgula no decimal e pono no milhar:'''
         lista2 = []
