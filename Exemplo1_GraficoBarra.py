@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
 import numpy as np
 import locale
-# Set to German locale to get comma decimal separater
+# Confirando para formato local Brasileiro para vírgula como sperador decimal
 locale.setlocale(locale.LC_ALL, "pt_BR.UTF-8")
 
 
